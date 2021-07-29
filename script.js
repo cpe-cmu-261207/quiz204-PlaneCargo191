@@ -7,7 +7,9 @@ const color = document.querySelector('#color')
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
-  // your code here
+  let cal = 620610790 - length.value
+  let calS = String(cal)
+  author.innerHTML = calS
 }
 
 // more codes for Search and Reset buttons here
